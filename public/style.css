@@ -1,0 +1,44 @@
+.chat { 
+    background-color: aliceblue;
+    display: flex;
+    align-content: center;
+    width: 100vw;;
+}
+
+.msg {
+    background-color:  rgba(93, 93, 213, 0.895) ;
+    color: whitesmoke;
+    align-content: center;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+.btn{
+    background-color: rgb(128, 202, 128);
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-size: 15px;
+}
+
+.edit{
+    position:absolute;
+    right: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    bottom: 10px;
+    align-items: center;
+}
+.delete {
+    position:absolute;
+    right: 5px;
+    bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    align-items: center;  
+}
